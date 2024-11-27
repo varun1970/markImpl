@@ -33,6 +33,8 @@ public class EmployeeController {
         System.out.println(saveddto.getName());
         System.out.println("1000");
         System.out.println("1000");
+        System.out.println("1000");
+        System.out.println("1000");
         return new ResponseEntity<>(saveddto, HttpStatus.CREATED);
 
     }
