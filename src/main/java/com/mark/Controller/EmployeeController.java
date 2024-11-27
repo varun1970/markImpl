@@ -31,6 +31,8 @@ public class EmployeeController {
             return new ResponseEntity<>(result.getAllErrors(), HttpStatus.INTERNAL_SERVER_ERROR);
        EmployeeDto saveddto= employeeService.addemp(dto);
         System.out.println(saveddto.getName());
+        System.out.println("1000");
+        System.out.println("1000");
         return new ResponseEntity<>(saveddto, HttpStatus.CREATED);
 
     }
